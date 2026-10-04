@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --brand-pink: #E11D74;
+    --brand-yellow: #F59E0B;
+    --brand-blue: #0284C7;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased selection:bg-brand-pinkLight selection:text-brand-pink;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf2f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #f472b6;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d74;
+}
+
+/* Playful wave background */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(225, 29, 116, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-bubbles {
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(245, 158, 11, 0.08) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(2, 132, 199, 0.08) 0%, transparent 25%),
+    radial-gradient(circle at 50% 50%, rgba(225, 29, 116, 0.05) 0%, transparent 35%);
+}
+
+/* Glassmorphism */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
