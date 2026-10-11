@@ -223,10 +223,10 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 12,
-    src: "/images/photos/12.jpg",
-    title: "School Uniform & Competition Day",
+    src: "/images/photos/14.png",
+    title: "School Uniform",
     category: "festivals",
-    description: "Students proudly wearing their official Little Angels uniforms, participating in friendly competitions and team-building activities.",
+    description: "Our smart Little Angels in their signature pink uniform, ready for school with pride, discipline, and a sense of belonging.",
     featured: false,
   },
 ];
