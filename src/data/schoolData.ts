@@ -229,6 +229,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     description: "Our smart Little Angels in their signature pink uniform, ready for school with pride, discipline, and a sense of belonging.",
     featured: false,
   },
+  {
+    id: 13,
+    src: "/images/photos/15.png",
+    title: "Vijayadashami Festival Admission",
+    category: "festivals",
+    description: "Celebrating the spirit of Vijayadashami with cultural performances, traditional attire, and joyful learning activities for new admissions.",
+    featured: false,
+  },
 ];
 
 export const WHY_CHOOSE_US = [
