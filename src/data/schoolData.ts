@@ -176,9 +176,9 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 6,
     src: "/images/photos/6.jpeg",
-    title: "School Uniform & Community Health Visit",
+    title: "Community Health Visit",
     category: "activities",
-    description: "Our smart scholars in signature Little Angels pink polo uniforms participating in an interactive oral hygiene and health awareness session.",
+    description: "Our smart scholars in signature Little Angels participating in an interactive oral hygiene and health awareness session.",
     featured: true,
   },
   {
@@ -219,6 +219,14 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     title: "National Symbols & Heritage Awareness",
     category: "festivals",
     description: "Interactive learning presentation showcasing India's national bird (peacock), national flower (lotus), national animal, and tricolor flag.",
+    featured: false,
+  },
+  {
+    id: 12,
+    src: "/images/photos/12.jpg",
+    title: "School Uniform & Competition Day",
+    category: "festivals",
+    description: "Students proudly wearing their official Little Angels uniforms, participating in friendly competitions and team-building activities.",
     featured: false,
   },
 ];
