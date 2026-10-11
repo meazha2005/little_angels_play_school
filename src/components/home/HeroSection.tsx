@@ -22,7 +22,7 @@ export default function HeroSection() {
             {/* Admissions Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/95 border border-pink-200 shadow-xs text-xs sm:text-sm font-bold text-brand-pink backdrop-blur-xs">
               <span className="w-2 h-2 rounded-full bg-brand-pink animate-ping" />
-              <span>Admissions Open for Academic Year 2026–2027</span>
+              <span>Vijayadashami Admissions Open for Academic Year 2026–2027</span>
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             </div>
 
