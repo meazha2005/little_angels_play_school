@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/layout/FloatingContact";
+import AdmissionsPopup from "@/components/layout/AdmissionsPopup";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://littleangelsplayschool.com"),
@@ -44,6 +45,7 @@ export default function RootLayout({
         <main className="flex-grow">{children}</main>
         <Footer />
         <FloatingContact />
+        <AdmissionsPopup />
       </body>
     </html>
   );
