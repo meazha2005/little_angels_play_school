@@ -11,8 +11,8 @@ export const SCHOOL_INFO = {
   formattedPhone: "+91 99624 85335",
   whatsappUrl: "https://wa.me/919962485335?text=Hello%20Little%20Angels%20Play%20School,%20I%20would%20like%20to%20inquire%20about%20admissions.",
   email: "littleangelsplayschoolkdr@gmail.com",
-  timings: "Monday - Saturday : 8:30 AM - 5:30 PM",
-  schoolHours: "PlayGroup & PreKG: 9:00 AM - 12:30 PM | LKG & UKG: 8:45 AM - 2:30 PM",
+  timings: "Monday - Saturday : 9:00 AM - 2:00 PM",
+  schoolHours: "PlayGroup & PreKG: 9:00 AM - 2:00 PM | LKG & UKG: 9:00 AM - 2:00 PM",
   ageGroup: "1.5 Years to 6 Years",
   googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15549.493892429643!2d80.0818274!3d12.9991444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526019a16f2723%3A0xe9f7c00e62eb8ce4!2sKundrathur%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1711111111111!5m2!1sen!2sin",
 };
