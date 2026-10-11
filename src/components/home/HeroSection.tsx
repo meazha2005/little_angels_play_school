@@ -75,7 +75,7 @@ export default function HeroSection() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white">
                 <div className="relative aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] w-full">
                   <Image
-                    src="/images/photos/4.jpeg"
+                    src="/images/photos/13.png"
                     alt="Little Angels Kindergarten Graduation Ceremony"
                     fill
                     className="object-cover hover:scale-105 transition-transform duration-500"
@@ -114,7 +114,7 @@ export default function HeroSection() {
               <div className="absolute -bottom-5 -right-3 sm:-right-5 bg-white/95 backdrop-blur-xs p-2.5 rounded-2xl shadow-xl border border-pink-100 max-w-[230px] hidden sm:flex items-center gap-3 z-10">
                 <div className="relative w-12 h-12 rounded-xl overflow-hidden shadow-sm shrink-0">
                   <Image
-                    src="/images/photos/13.png"
+                    src="/images/photos/6.jpeg"
                     alt="School pink uniform scholars"
                     fill
                     className="object-cover"
