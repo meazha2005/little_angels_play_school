@@ -10,6 +10,7 @@ const CATEGORIES = [
   { id: "all", label: "All Photos (11)" },
   { id: "graduation", label: "KG Graduation Day" },
   { id: "festivals", label: "Festivals & Culture" },
+  { id: "admissions", label: "Admissions" },
   { id: "activities", label: "Class Activities & Fancy Dress" },
 ];
 
@@ -106,6 +107,8 @@ export default function GalleryPage() {
                       ? "Graduation Ceremony"
                       : photo.category === "festivals"
                       ? "Festival & Heritage"
+                      : photo.category === "admissions"
+                      ? "Admission"
                       : "School Activity"}
                   </span>
                   <h3 className="font-bold text-base sm:text-lg leading-snug drop-shadow-sm">
@@ -181,6 +184,8 @@ export default function GalleryPage() {
                   ? "KG Graduation Day"
                   : selectedPhoto.category === "festivals"
                   ? "Festival Celebration"
+                  : selectedPhoto.category === "admissions"
+                  ? "Admission"
                   : "Classroom & Fun Activity"}
               </span>
               <h2 className="text-lg sm:text-xl font-bold">{selectedPhoto.title}</h2>

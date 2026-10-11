@@ -232,8 +232,8 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 13,
     src: "/images/photos/15.png",
-    title: "Vijayadashami Festival Admission",
-    category: "festivals",
+    title: "Vijayadashami Admission",
+    category: "admissions",
     description: "Celebrating the spirit of Vijayadashami with cultural performances, traditional attire, and joyful learning activities for new admissions.",
     featured: false,
   },

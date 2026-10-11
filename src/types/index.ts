@@ -19,7 +19,7 @@ export interface GalleryItem {
   id: number;
   src: string;
   title: string;
-  category: "all" | "graduation" | "festivals" | "activities";
+  category: "all" | "graduation" | "festivals" | "admissions" | "activities";
   description: string;
   featured?: boolean;
 }

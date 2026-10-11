@@ -54,6 +54,8 @@ export default function GalleryPreview() {
                       ? "Graduation"
                       : item.category === "festivals"
                       ? "Festival"
+                      : item.category === "admissions"
+                      ? "Admission"
                       : "Activity"}
                   </span>
                   <h3 className="font-bold text-base sm:text-lg leading-snug drop-shadow-sm">
