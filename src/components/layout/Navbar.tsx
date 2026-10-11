@@ -120,7 +120,7 @@ export default function Navbar() {
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-pink to-brand-pinkHover hover:from-brand-pinkHover hover:to-brand-pinkDark text-white text-sm font-bold shadow-soft hover:shadow-glow transform hover:-translate-y-0.5 transition-all duration-200"
             >
               <Heart className="w-4 h-4 fill-white" />
-              <span>Enroll Your Child</span>
+              <span>Enquire for Admission</span>
             </Link>
           </div>
 
